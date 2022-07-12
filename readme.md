@@ -25,3 +25,11 @@ https://git-scm.com/
 `git clone https://github.com/xrr-233/PKU-Control.git`
 
 即可。
+
+## 附录
+
+文档链接
+
+https://docs.google.com/document/d/1_6HnpUWF0NsLVRyq94hR7P59fmOf9Y2581-f4fCNbqg/edit
+
+如有任何问题，在群里随时问就可以:)
