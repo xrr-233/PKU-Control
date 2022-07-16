@@ -83,7 +83,7 @@ def agent(states, actions):
 model1 = agent(env.observation_space.shape[0], env.action_space.n)
 model1.summary()
 
-'''这是原代码，使用保守的SARSA算法，效果不好，仅用于测试网络用'''
+'''这是原代码，使用保守的SARSA算法'''
 '''
 policy = EpsGreedyQPolicy()
 
@@ -124,7 +124,7 @@ _ = sarsa.test(env, nb_episodes = 5, visualize= True)
 env.close()
 '''
 
-'''现在更改成DQN，效果好，作为最终方案'''
+'''现在更改成DQN作为最终方案'''
 '''要重新训练的话删注释'''
 '''
 policy = BoltzmannQPolicy()
