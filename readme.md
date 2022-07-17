@@ -62,3 +62,9 @@ Then you can modify and run the desired code by typing
 `python ***.py`
 
 in the terminal.
+
+## Appendices
+
+Document link
+
+https://docs.google.com/document/d/1_6HnpUWF0NsLVRyq94hR7P59fmOf9Y2581-f4fCNbqg/edit
