@@ -1,35 +1,64 @@
-## 简介
+# PKU-Control
 
-本库分为两部分：“以往项目”和“如今项目”
+This is the Github repository for the report of the course Fundamentals of Control Theory. In this repository, we display the project structure to show our endeavor on experiments and discovery of the keras-rl-based sample code. We also document the steps in order to make the project executable.
 
-“以往项目”是作参考用的，因为所有的功能已经实现，文档也较完备
+## Step 1: Software Installation
 
-“如今项目”就是对本次report的要求进行实现
+### Anaconda
 
+https://www.anaconda.com/
 
-
-## 下载项目文件夹
-
-### 第一种方法
-
-zip下载
-
-### 第二种方法（推荐）
-
-使用git工具
+### Git (If you want to use it to clone the project)
 
 https://git-scm.com/
 
-下载完成后右击桌面（或其他地方），点击Git Bash Here，会蹦出一个对话框，输入
+### IDE (We use Pycharm for example)
 
-`git clone https://github.com/xrr-233/PKU-Control.git`
+https://www.jetbrains.com/pycharm/
 
-即可。
+## Step 2: Clone the Project
 
-## 附录
+Clone the project folder into your computer by either way:
 
-文档链接
+1. Using zip download, OR
+2. Right click and choose "Git Bash Here" somewhere on your PC, then type the command
 
-https://docs.google.com/document/d/1_6HnpUWF0NsLVRyq94hR7P59fmOf9Y2581-f4fCNbqg/edit
+ 	`git clone https://github.com/xrr-233/PKU-Control`
 
-如有任何问题，在群里随时问就可以:)
+## Step 3: Environment Configuration
+
+After software installation, open "Anaconda Prompt" in the Start Menu. In the window, enter:
+
+`conda create -n PKU-Control python=3.6`
+
+This will create an environment called PKU-Control.
+
+
+
+When cloned the project, open the project folder “PKU-Control” using Pycharm.
+
+In File > Settings > Project: PKU-Control > Python Interpreter, click the gear icon.
+
+![1](./images/1.png)
+
+Then click "Add...", select "Conda Environment", and choose "Existing environment", and find your Anaconda environment path (usually in C:\Users\\{{your user name}}\\.conda\\envs\\PKU-Control\\python.exe), then click "OK".
+
+
+
+After that, open the terminal and type
+
+`pip install -r requirements.txt`
+
+like:
+
+![2](./images/2.png)
+
+Then wait for installation.
+
+## Run
+
+Then you can modify and run the desired code by typing
+
+`python ***.py`
+
+in the terminal.
